@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Belanosima;
+    src: url('fonts/Belanosima-Regular.ttf');
+}
+@font-face {
+    font-family: iransans;
+    src: url('fonts/iransans.ttf');
+}
+body {
+    background: linear-gradient(to right, #419197 0%, #78D6C6 70%);
+    font-family: 'Belanosima';
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.header {
+    font-size: 30px;
+    background-color: #7752FE;
+    width: 86%;
+    margin: 20px auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px;
+}
+.sections a {
+    color: #DDF2FD;
+    /* background-color: #7752FE; */
+    background-color: purple;
+    width: 30%;
+    height: 100px;
+    margin: 10px 1%;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.sections a img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.category {
+    font-size: 40px;
+    background-color: #7752FE;
+    width: 86%;
+    margin: 20px auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.category img {
+    width: 90px;
+    height: 90px;
+    margin-right: 30px;
+}
+.category p {
+    text-align: center;
+}
+.question {
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #E5D4FF;
+    padding: 20px 0;
+    border-radius: 7px;
+    font-size: 40px;
+}
+.fa-question {
+    direction: rtl;
+    margin-top: 20px;
+}
+.question-buttons {
+    margin-top: 50px;
+}
+.true {
+    background-color: green;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.false {
+    background-color: red;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.question-choices {
+    display: flex;
+    justify-content: space-around;
+}
+.back {
+    position: absolute;
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.back i {
+    color: black;
+}
+.timer {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}

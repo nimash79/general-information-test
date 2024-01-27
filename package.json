@@ -1,0 +1,21 @@
+{
+  "name": "zaban-motarjemi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nima",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.4",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "electron-localshortcut": "^3.2.1",
+    "mongoose": "^8.0.1"
+  }
+}

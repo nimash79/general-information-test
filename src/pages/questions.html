@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sports</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/fonts/fontawesome-free-6.4.2-web/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/fonts/fontawesome-free-6.4.2-web/css/brands.min.css" rel="stylesheet" />
+    <link href="css/fonts/fontawesome-free-6.4.2-web/css/solid.min.css" rel="stylesheet" />
+</head>
+<body>
+    <audio src="./assets/win.mp3" id="win" style="display: none;"></audio>
+    <audio src="./assets/wrong.mp3" id="wrong" style="display: none;"></audio>
+    <audio src="./assets/finish.mp3" id="finish" style="display: none;"></audio>
+    <div>
+        <a href="#" class="back">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <div class="category">
+            <img src="assets/sports.png" />
+            <p>Sports</p>
+        </div>
+        <!-- <div class="question">
+            <p>What’s the biggest animal in the world?</p>
+            <div class="question-buttons">
+                <button class="true" type="button">True</button>
+                <button class="false" type="button">False</button>
+            </div>
+        </div> -->
+        <div class="question">
+            <!-- <p>What’s the biggest animal in the world?</p>
+            <div class="question-choices">
+                <p>A. ant</p>
+                <p>B. mouse</p>
+                <p>C. elephant</p>
+                <p>D. mouse</p>
+            </div> -->
+        </div>
+        <div class="question" style="direction: rtl; margin-top: 20px; font-family: iransans">
+            <!-- <p>بزرگترین حیوان در دنیا چیست؟</p>
+            <div class="question-choices">
+                <p>الف) مورچه</p>
+                <p>ب) موش</p>
+                <p>ج) فیل</p>
+                <p>د) موش</p>
+            </div> -->
+        </div>
+        <p id="timer" class="timer"></p>
+    </div>
+    <script src="../controllers/questions.js"></script>
+</body>
+</html>
