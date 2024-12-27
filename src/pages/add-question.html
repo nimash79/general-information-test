@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="css/fonts/fontawesome-free-6.4.2-web/css/fontawesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="css/fonts/fontawesome-free-6.4.2-web/css/brands.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="css/fonts/fontawesome-free-6.4.2-web/css/solid.min.css"
+      rel="stylesheet"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Add Question</title>
+  </head>
+  <body>
+    <div class="main">
+      <a href="#" class="back">
+        <i class="fa fa-arrow-left"></i>
+      </a>
+      <div class="header">Add Question</div>
+      <div class="form">
+        <label class="form-label">Select level:</label>
+        <select class="form-select" id="level">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <label class="form-label">Select category:</label>
+        <select class="form-select categories-select" id="category"></select>
+        <label class="form-label">Question en:</label>
+        <textarea class="form-input english form-textarea" dir="ltr" rows="5" id="english"></textarea>
+        <label class="form-label">Question fa:</label>
+        <textarea class="form-input persian form-textarea" dir="rtl" rows="5" id="persian"></textarea>
+        <label class="form-label">Choices:</label>
+        <div class="choices">
+
+        </div>
+        <button type="button" class="custom-btn add-choice-btn">
+          Add choice
+        </button>
+        <br />
+        <button type="button" class="form-submit">Submit</button>
+      </div>
+    </div>
+    <script src="../controllers/add-question.js"></script>
+  </body>
+</html>

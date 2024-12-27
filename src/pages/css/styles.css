@@ -130,3 +130,96 @@ a {
     text-align: center;
     margin-top: 20px;
 }
+
+.btn-add-question {
+    color: #DDF2FD;
+    background-color: purple;
+    padding: 10px 0;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+.btn-add-question img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.form {
+    background-color: #7752FE;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.form-label {
+    font-family: "Belanosima";
+    font-size: large;
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-input, .form-select {
+    background-color: purple;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #fff;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.form-select option {
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.form-submit {
+    font-family: "Belanosima";
+    font-size: 16px;
+    background-color: rgb(59, 221, 59);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.custom-btn {
+    font-family: "Belanosima";
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    background-color: #28eca4;
+    cursor: pointer;
+}
+
+.add-choice-btn {
+    margin-bottom: 10px;
+}
+
+.remove-choice-btn {
+    background-color: rgb(237, 98, 98);
+    margin-bottom: 10px;
+}
+
+.english {
+    font-family: "Belanosima";
+}
+
+.persian {
+    font-family: "iransans";
+}
